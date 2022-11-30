@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>明るいHOUSE</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="global_flex_side_part">
+    <!--------------------------- 
+ 　　　　side_header(pc)
+ ---------------------------->
+    <header class="side_header">
+      <h1 class="logo"><a href="#"><img src="img/logo.svg" alt=""></a></h1>
+      <nav class="nav_header">
+        <ul>
+          <li><a href="#">私たちについて</a></li>
+          <li><a href="#">サービス</a></li>
+          <li><a href="#">商品情報</a></li>
+          <li><a href="#">展示会</a></li>
+          <li><a href="#">暮らしの日記</a></li>
+          <li><a href="#">会社概要</a></li>
+        </ul>
+      </nav>
+      <div class="sns">
+        <ul>
+          <li><a href="http://twitter.com">twitter</a></li>
+          <li><a href="http://facebook.com">fecebook</a></li>
+          <li><a href="http://instagram.com">instagram</a></li>
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <!--------------------------- 
+       top-header(sp)ハンバーガーメニュー
+  ---------------------------->
+  <header class="top-header">
+    <div class="top-fixed-part">
+      <h1 class="logo"><img src="img/logo.svg" alt=""></h1>
+      <label for="checkbox">
+        <input type="checkbox" id="checkbox">
+        <span class="line1"></span>
+        <span class="line2"></span>
+        <span class="line3"></span>
+        <!-- <div class="burger"> -->
+      </label>
+      <!-- </div> -->
+    </div>
+    <!-- nav -->
+    <div id="hidden-menu" class="hidden-menu">
+      <label for="checkbox">
+        <div id="mask" class="mask"></div>
+      </label>
+      <div id="menu-part" class="menu-part">
+        <nav class="nav">
+          <ul>
+            <li><a href="#">私たちについて</a></li>
+            <li><a href="#">サービス</a></li>
+            <li><a href="#">商品情報</a></li>
+            <li><a href="#">展示会</a></li>
+            <li><a href="#">暮らしの日記</a></li>
+            <li><a href="#">会社概要</a></li>
+          </ul>
+        </nav>
+        <div class="sns">
+          <ul>
+            <li><a href="http://twitter.com">twitter</a></li>
+            <li><a href="http://facebook.com">fecebook</a></li>
+            <li><a href="http://instagram.com">instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!--------------------------- 
+       top_visual
+  ---------------------------->
+  <div class="global_flex_main_part">
+    <main>
+      <section class="top_visual">
+        <!-- <div class="bg_movie"></div> -->
+        <video src="Time Lapse Video of Tall Buildings.mp4" autoplay loop muted playsinline></video>
+      </section>
+      <!--------------------------- 
+　  architectural_example
+---------------------------->
+      <section class="architectural_example">
+        <div class="container">
+          <h2>建築事例を紹介</h2>
+          <div class="contents_wrapper">
+            <div class="box box1">
+              <a href="#">
+                <img src="house/pexels-binyamin-mellish-106399.jpg" alt="">
+                <p>PROJECT_01</p>
+              </a>
+            </div>
+            <div class="box box2">
+              <a href="#">
+                <img src="house/pexels-expect-best-323780.jpg" alt="">
+                <p>PROJECT_02</p>
+              </a>
+            </div>
+            <div class="box box3">
+              <a href="#">
+                <img src="house/pexels-frans-van-heerden-1438832.jpg" alt="">
+                <p>PROJECT_03</p>
+              </a>
+            </div>
+            <div class="box box4">
+              <a href="#">
+                <img src="house/pexels-saviesa-home-2089698.jpg" alt="">
+                <p>PROJECT_04</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------- 
+　　　　　back_button
+---------------------------->
+      <a href="#">
+        <div id="back_button" class="back_button"></div>
+      </a>
+      <!--------------------------- 
+　　　　  feature
+---------------------------->
+      <section class="feature">
+        <div class="container">
+          <h2>明るいHOUSEの特徴</h2>
+          <div class="contents_wrapper">
+            <div class="box1 box">
+              <div class="circle">
+                <a class="link bgleft" href="#">
+                  <p class="ttl">design</p>
+                </a>
+              </div>
+              <p class="text1">デザイン</p>
+              <p class="text2">テキストテキストテキスト</p>
+            </div>
+            <div class="box2 box">
+              <div class="circle">
+                <a class="link bgleft" href="#">
+                  <p class="ttl">quality</p>
+                </a>
+              </div>
+              <p class="text1">性能</p>
+              <p class="text2">テキストテキストテキスト</p>
+            </div>
+            <div class="box3 box">
+              <div class="circle">
+                <a class="link bgleft" href="#">
+                  <p class="ttl">support</p>
+                </a>
+              </div>
+              <p class="text1">サポート</p>
+              <p class="text2">テキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--------------------------- 
+　　construction_process
+---------------------------->
+      <section class="construction_process">
+        <div class="container">
+          <h2>家ができるまでの流れ</h2>
+          <p class="description">お問い合わせいただいてから、家が完成するまでの流れです。</p>
+          <div class="contents_wrapper">
+            <div class="flow_wrapper">
+              <div class="box box1">
+                <p class="ttl_box">1.ヒアリング</p>
+                <div class="triangle"></div>
+                <div class="yellow_line"></div>
+              </div>
+              <div class="box box2">
+                <p class="ttl_box">2.プラン提案</p>
+                <div class="triangle"></div>
+                <div class="yellow_line"></div>
+              </div>
+              <div class="box box3">
+                <p class="ttl_box">3.契約</p>
+                <div class="triangle"></div>
+                <div class="yellow_line"></div>
+              </div>
+              <div class="box box4">
+                <p class="ttl_box">4.着工</p>
+                <div class="triangle"></div>
+                <div class="yellow_line"></div>
+              </div>
+              <div class="box box5">
+                <p class="ttl_box">5.完成</p>
+                <div class="triangle"></div>
+                <div class="yellow_line"></div>
+              </div>
+            </div>
+            <div class="each_process_wrapper">
+              <div class="box box1">
+                <p class="ttl_1">ヒアリング</p>
+                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキスト テキス トテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+              <div class="box box2">
+                <p class="ttl_2">プラン提案</p>
+                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキスト テキス トテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+              <div class="box box3">
+                <p class="ttl_3">契約</p>
+                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキスト テキス トテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+              <div class="box box4">
+                <p class="ttl_4">着工</p>
+                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキスト テキス トテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+              <div class="box box5">
+                <p class="ttl_5">完成</p>
+                <p class="text">テキストテキストテキストテキストテキストテキストテキストテキスト テキス トテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------- 
+　　　　  inquiry
+---------------------------->
+      <section class="inquiry">
+        <div class="container">
+          <h2>お問い合わせ</h2>
+          <p class="description">お問い合わせは下記からお願いいたします。</p>
+          <div class="contents_wrapper">
+            <div class="box box1">
+              <a href="#">
+                <div class="icon">
+                  <img src="img/icon-document.png" alt="">
+                  <p>資料請求</p>
+              </a>
+            </div>
+          </div>
+          <div class="box box2">
+            <a href="#">
+              <div class="icon">
+                <img src="img/icon-seminar.png" alt="">
+                <p>Web説明会</p>
+            </a>
+          </div>
+        </div>
+        <div class="box box3">
+          <a href="#">
+            <div class="icon">
+              <img src="img/icon-talk.png" alt="">
+              <p>個別相談</p>
+          </a>
+        </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  </main>
+  <!--------------------------- 
+　　　　  footer
+---------------------------->
+  <nav class="nav_footer">
+    <ul>
+      <li><a href="#">私たちについて</a></li>
+      <li><a href="#">サービス</a></li>
+      <li><a href="#">商品情報</a></li>
+      <li><a href="#">展示会</a></li>
+      <li><a href="#">暮らしの日記</a></li>
+      <li><a href="#">会社概要</a></li>
+    </ul>
+    <small>Copyright © 2021 Akarui HOUSE All Rights Reserved.</small>
+  </nav>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" rel="script" src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
